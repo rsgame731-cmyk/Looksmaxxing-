@@ -1,0 +1,6 @@
+{
+  "name": "Astrauw Glowup — 30-Day Looksmaxxing Planner",
+  "description": "Transform your face, body, style & confidence in 30 days. Daily practical system, printable PDF planner, checklists and habit trackers for $10 USD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
