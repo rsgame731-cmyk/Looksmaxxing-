@@ -1,4 +1,9 @@
 import React from 'react';
+import faceImg from '../assets/images/pillar_face_skincare_1793870336205.jpg';
+import hairImg from '../assets/images/pillar_hair_grooming_1793870338020.jpg';
+import bodyImg from '../assets/images/pillar_fitness_posture_1793870338077.jpg';
+import styleImg from '../assets/images/pillar_style_wardrobe_1793870337374.jpg';
+import confidenceImg from '../assets/images/pillar_confidence_mindset_1793870355164.jpg';
 
 export const FivePillars: React.FC = () => {
   const pillars = [
@@ -7,7 +12,7 @@ export const FivePillars: React.FC = () => {
       area: '01 · FACE',
       name: 'Face',
       summary: 'Skincare, facial hygiene and healthy habits.',
-      image: '/src/assets/images/pillar_face_skincare_1793870336205.jpg',
+      image: faceImg,
       points: ['Morning hydration & SPF', 'Ice bowl lymphatic drainage', 'Chewing & jawline posture'],
     },
     {
@@ -15,7 +20,7 @@ export const FivePillars: React.FC = () => {
       area: '02 · HAIR',
       name: 'Hair',
       summary: 'Hairstyle, haircare and grooming.',
-      image: '/src/assets/images/pillar_hair_grooming_1793870338020.jpg',
+      image: hairImg,
       points: ['Face-shape haircut selection', 'Scalp circulation protocol', 'Natural hair volume styling'],
     },
     {
@@ -23,7 +28,7 @@ export const FivePillars: React.FC = () => {
       area: '03 · BODY',
       name: 'Body',
       summary: 'Fitness, posture, hydration and recovery.',
-      image: '/src/assets/images/pillar_fitness_posture_1793870338077.jpg',
+      image: bodyImg,
       points: ['Spine decompression & neck alignment', 'Low facial bloat hydration', 'Lean compound strength'],
     },
     {
@@ -31,7 +36,7 @@ export const FivePillars: React.FC = () => {
       area: '04 · STYLE',
       name: 'Style',
       summary: 'Outfits, clothing fit and personal presentation.',
-      image: '/src/assets/images/pillar_style_wardrobe_1793870337374.jpg',
+      image: styleImg,
       points: ['Neutral capsule wardrobe', 'Proportion & drape mastery', 'Clean footwear & subtle scent'],
     },
     {
@@ -39,7 +44,7 @@ export const FivePillars: React.FC = () => {
       area: '05 · CONFIDENCE',
       name: 'Confidence',
       summary: 'Mindset, self-respect and discipline.',
-      image: '/src/assets/images/pillar_confidence_mindset_1793870355164.jpg',
+      image: confidenceImg,
       points: ['Internal promise keeping', 'Composed eye contact & tone', 'Daily evening reflection'],
     },
   ];

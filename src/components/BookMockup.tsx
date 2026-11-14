@@ -1,4 +1,5 @@
 import React from 'react';
+import heroEditorialManImg from '../assets/images/hero_editorial_man_1793870336226.jpg';
 
 export const BookMockup: React.FC<{ className?: string; onClick?: () => void }> = ({ className = '', onClick }) => {
   return (
@@ -44,7 +45,7 @@ export const BookMockup: React.FC<{ className?: string; onClick?: () => void }> 
         {/* Editorial Photo Frame in the Center */}
         <div className="relative z-10 my-3 w-full aspect-[4/3.8] rounded-md overflow-hidden border border-[#DCCBBC]/80 shadow-inner bg-[#F4EBDD]">
           <img
-            src="/src/assets/images/hero_editorial_man_1793870336226.jpg"
+            src={heroEditorialManImg}
             alt="Astrauw Looksmaxxing Editorial Portrait"
             className="w-full h-full object-cover object-top filter contrast-[1.03]"
             referrerPolicy="no-referrer"
